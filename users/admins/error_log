@@ -1,0 +1,1 @@
+[27-Nov-2013 14:11:06 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in users/view/details.tpl line 63]: syntax error: unclosed tag \{if} (opened line 63). (Smarty_Compiler.class.php, line 317) in /home/willnett/public_dev/sayes/library/classes/smarty/Smarty.class.php on line 1095

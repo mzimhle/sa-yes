@@ -1,0 +1,10 @@
+[10-Dec-2013 00:34:56 Africa/Johannesburg] PHP Warning:  require_once(class/_comms.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/willnett/public_dev/sayes/comms/comms/default.php on line 17
+[10-Dec-2013 00:34:56 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/_comms.php' (include_path='/home/willnett/public_dev/sayes/:/home/willnett/public_dev/sayes/library/classes/') in /home/willnett/public_dev/sayes/comms/comms/default.php on line 17
+[10-Dec-2013 00:35:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'willnett_sayes._comms' doesn't exist' in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comms`...')
+#1 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comms`...')
+#2 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comms`...')
+#3 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willnett/public_dev/sayes/library/classes/class/_comms.php(56): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/willnett/public_dev/sayes/comms/comms/default.php(22): c in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php on line 77

@@ -1,0 +1,21 @@
+[25-Nov-2013 12:44:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Duplicate entry '2013' for key 'PRIMARY'' in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `me...', Array)
+#3 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('mentorship', Array)
+#4 /home/willnett/public_dev/sayes/library/classes/class/mentorship.php(34): Zend_Db_Table_Abstract->insert(Array)
+#5 /home/willnett/public_dev/sayes/mentorships/view/details.php(80): class_mentorship->insert(Array)
+#6 {main}
+  thrown in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[25-Nov-2013 12:48:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : Duplicate entry '2013' for key 'PRIMARY'' in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `me...', Array)
+#3 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('mentorship', Array)
+#4 /home/willnett/public_dev/sayes/library/classes/class/mentorship.php(34): Zend_Db_Table_Abstract->insert(Array)
+#5 /home/willnett/public_dev/sayes/mentorships/view/details.php(81): class_mentorship->insert(Array)
+#6 {main}
+  thrown in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[25-Nov-2013 12:50:04 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/willnett/public_dev/sayes/library/classes/class/mentorship.php on line 72

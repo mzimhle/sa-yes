@@ -1,0 +1,15 @@
+[10-Dec-2013 11:39:05 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 9
+[10-Dec-2013 11:39:05 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 10
+[10-Dec-2013 11:39:05 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 11
+[10-Dec-2013 11:39:05 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 12
+[10-Dec-2013 11:41:06 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/willnett/public_dev/sayes/users/mentorship/default.php on line 131
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 9
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 10
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 11
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 12
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant ROOT already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 9
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant LIBS already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 10
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant WWW already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 11
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Notice:  Constant URI already defined in /home/willnett/public_dev/sayes/config/smarty.php on line 12
+[10-Dec-2013 11:42:59 Africa/Johannesburg] PHP Fatal error:  Cannot redeclare class Zend_Mail in /home/willnett/public_dev/sayes/library/classes/Zend/Mail.php on line 1261
+[10-Dec-2013 11:51:09 Africa/Johannesburg] PHP Fatal error:  Cannot redeclare class Zend_Mail in /home/willnett/public_dev/sayes/library/classes/Zend/Mail.php on line 1261

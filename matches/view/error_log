@@ -1,0 +1,16 @@
+[25-Nov-2013 10:52:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/willnett/public_dev/sayes/library/classes/class/match.php(24): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/willnett/public_dev/sayes/matches/view/details.php(76): class_match->insert(Array)
+#3 {main}
+  thrown in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Table/Abstract.php on line 877
+[25-Nov-2013 11:02:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/willnett/public_dev/sayes/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/willnett/public_dev/sayes/library/classes/class/match.php(92): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/willnett/public_dev/sayes/matches/view/details.php(66): class_match->getByUserMentorship('AE1BEE8D92', '2E9F1E69F0', '2013')
+#5 {main}
+  thrown in /home/willnett/public_dev/sayes/library/classes/Zend/Db/Statement/Mysqli.php on line 214

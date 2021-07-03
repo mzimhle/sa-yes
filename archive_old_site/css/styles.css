@@ -1,0 +1,337 @@
+@import url('reset.css');
+body {
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #F4F0EC;
+	font-size: 12px;
+	padding-bottom: 5em;
+}
+
+/* Tab Customizations - Overides jquery custom */
+.ui-tabs-nav {
+	font-size: .9em;
+}
+.ui-widget button {
+	font-size: .8em;
+}
+.ui-widget { 
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.ui-tabs-nav li {
+	font-size: 1.1em;
+}
+
+/* General */
+h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: .5em 0;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	padding: .25em 0;
+/*	margin: 0 0 .5em 0;*/
+}
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	padding: .25em 0;
+	margin: .5em 0;
+}
+#header {
+	padding: .5em;
+	background-color: #452300;
+	color: #FFF;
+}
+#header a:link, #header a:visited { color: #FFF; }
+#header a:hover { color: #B5D354}
+#mainContent { padding: 2em 1em 1em 1em; }
+.mainContent { padding: 2em 1em 1em 1em; }
+.aSection { 
+	padding: 0 0 1em 0;
+}
+.sectionContent {
+	background-color: #FAF6F1;
+	padding: .5em 1em .5em 1em;
+}
+.sectionContent h4 {
+	padding: .5em 0 1.25em 0;
+}
+.sectionContent p { clear: both; }
+
+/* Forms (General) */
+label { font-size: 1.1em; }
+input.button {
+	background-color: #EEE;
+	border: 1px solid #666;
+	cursor: pointer;
+	margin: 1em 0;
+	font-weight: bold;
+}
+input.button:hover { background-color: #CCC; }
+input.disabled:hover { background-color: #EEE; }
+input.input { width: 25em; }
+.req { color: #FF0000; }
+
+/* Navigation */
+.nav {
+	height: 4em;
+    background-color: #9ABC4B;
+    overflow: hidden;
+}
+.nav ul {
+	height: 4em;
+	padding: 1.2em 0;
+}
+.nav ul li {
+	display: inline;
+	padding: 1.5em 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.nav ul li.selected { background-color: #B5D354; }
+.nav ul li:hover { background-color: #83A040; }
+.nav ul li.selected:hover { background-color: #B5D354; }
+.nav ul li a:link, .nav ul li a:visited { 
+	color: #000;
+	text-decoration: none;
+}
+
+/* Login */
+#loginPage { text-align: center; }
+#loginWrap {
+	text-align: left;
+	margin: auto;
+	width: 35em;
+}
+#loginWrap h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: .5em;
+}
+#loginWrap form {
+	background-color: #FFF;
+	border: 1px solid #999;
+	padding: 2em;	
+}
+#loginWrap p { padding: .5em; }
+#loginWrap label { 
+	width: 6em;
+	float: left;
+	font-weight: bold;
+}
+#loginForm label.error {
+	width: auto;
+	float: none;
+	font-weight: normal;
+}
+#loginError {
+	color: #FF0000;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Data Table */
+.dataTables_wrapper { min-height: 50px; }
+.dataTables_info { font-size: .8em; }
+table.display tr.odd.row_selected td { background-color: #9FAFD1; }
+.DTTT_container { text-align: right; }
+tr.deactivated {
+	color: #666;
+	font-style: italic;
+}
+.dtControls { padding-top: 1.5em; }
+.dtControls ul li { display: inline; }
+.dtControls input.button { font-size: .9em; }
+input.edit {
+	background-image: url('images/edit-12.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 20px;
+}
+input.delete {
+	background-image: url('images/delete-12.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 20px;
+}
+input.activate {
+	background-image: url('images/activate-12.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 20px;
+}
+.form p {
+	padding: .4em;
+	font-size: .9em;
+}
+.form label {
+	width: 13em;
+	float: left;
+	font-weight: bold;
+}
+.form label.error {
+	width: auto;
+	float: none;
+	font-weight: normal;
+}
+
+/* Form Errors */
+.error {
+	color: #FF0000;
+	font-style: italic;
+	padding: 0 .5em;
+}
+.dialog { display: none; }
+.dialog p { font-size: 10pt; }
+
+/* User Styles */
+#addUserMentor textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+#addUserMentee textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+#addUserAdmin textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+
+/* User Edit */
+#editMentorForm textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+#editMenteeForm textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+#editAdminForm textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+
+/* Meeting Styles */
+#addMeeting p {
+	padding: .4em;
+	font-size: .9em;
+	clear: both;
+}
+#addMeeting label {
+	width: 15em;
+	float: left;
+	font-weight: bold;
+}
+#addMeeting label.error {
+	width: auto;
+	float: none;
+	font-weight: normal;
+}
+#addMeeting textarea { 
+	width: 41em;
+	height: 10em;
+}
+#editMeetingForm {
+	padding: 2em;
+	overflow: visible;
+}
+#editMeetingForm p {
+	padding: .4em;
+	font-size: .9em;
+	clear: both;
+}
+#editMeetingForm label {
+	width: 12em;
+	float: left;
+	font-weight: bold;
+}
+#editMeetingForm label.error {
+	width: auto;
+	float: none;
+	font-weight: normal;
+}
+#editMeetingForm textarea { 
+	width: 38em;
+	height: 10em;
+}
+#statusReasonOptsWrap { display: none; }
+#statusReasonOtherWrap { display: none; }
+#statusReasonOtherEditWrap { display: none; }
+#statusReasonOptsEditWrap { display: none; }
+#statusYesItems { }
+.detailsHeader { font-weight: bold; }
+
+#addAdminNotesForm textarea { 
+	width: 38em;
+	height: 10em;
+}
+#tam {
+	float: left;
+	margin-left: 10px;
+}
+/* override width of length selector */
+.dataTables_length { width: auto; }
+
+/* Match Styles */
+#addMatch label {
+	width: 8em;
+}
+#addMatch textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+#editMatchForm textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+
+/* Mentee View/Edit Styles */
+#mentorMenteeEditForm textarea { 
+	width: 39.5em;
+	height: 10em;
+}
+
+/* Utility Styles */
+.bold { font-weight: bold; }
+.message {
+	display: none;
+	background-color: #FFF;
+	border: 1px solid #999;
+	padding: 1em;
+}
+
+pre {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+textarea { font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; }
+.display {
+	font-size: .9em;
+	table-layout: fixed;
+}
+
+.emailCell { word-wrap: break-word; }
+
+.details td { vertical-align: top; }
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
